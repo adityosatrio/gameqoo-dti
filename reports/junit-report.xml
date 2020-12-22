@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login;user-success-to-login" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:\#PROGRAM DTI\Project\dti-project3\features\login-success.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="login;user-success-to-login" time="0.0010714">
+        </testcase>
+        <testcase name="And user fill email field" classname="login;user-success-to-login" time="0.0004304">
+        </testcase>
+        <testcase name="And user fill password field" classname="login;user-success-to-login" time="0.0003274">
+        </testcase>
+        <testcase name="When user click login button" classname="login;user-success-to-login" time="0.0004877">
+        </testcase>
+        <testcase name="Then user can see home page" classname="login;user-success-to-login" time="19.9585203">
+        </testcase>
+    </testsuite>
+</testsuites>

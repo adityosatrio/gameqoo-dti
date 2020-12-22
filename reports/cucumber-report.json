@@ -1,0 +1,100 @@
+[
+  {
+    "description": "    As a user\n    I want to be able to login",
+    "elements": [
+      {
+        "id": "login;user-success-to-login",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User success to login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse login page",
+            "result": {
+              "status": "passed",
+              "duration": 1071400
+            },
+            "line": 8,
+            "match": {
+              "location": "DTI\\Project\\dti-project3\\step-definitions\\login-success-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill email field",
+            "result": {
+              "status": "passed",
+              "duration": 430400
+            },
+            "line": 9,
+            "match": {
+              "location": "DTI\\Project\\dti-project3\\step-definitions\\login-success-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 327400
+            },
+            "line": 10,
+            "match": {
+              "location": "DTI\\Project\\dti-project3\\step-definitions\\login-success-steps.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user click login button",
+            "result": {
+              "status": "passed",
+              "duration": 487700
+            },
+            "line": 11,
+            "match": {
+              "location": "DTI\\Project\\dti-project3\\step-definitions\\login-success-steps.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user can see home page",
+            "result": {
+              "status": "passed",
+              "duration": 19958520300
+            },
+            "line": 12,
+            "match": {
+              "location": "DTI\\Project\\dti-project3\\step-definitions\\login-success-steps.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 123010400
+            },
+            "hidden": true,
+            "match": {
+              "location": "DTI\\Project\\dti-project3\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login",
+    "tags": [],
+    "uri": "D:\\#PROGRAM DTI\\Project\\dti-project3\\features\\login-success.feature"
+  }
+]
